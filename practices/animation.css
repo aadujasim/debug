@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vb;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    
+    
+}
+.loader1{
+    animation: loading 1s infinite 0.1s;
+    
+}
+.loader2{
+    animation: loading 1s infinite 0.3s;
+}
+.loader3{
+    animation: loading 1s infinite 0.5s;
+}
+@keyframes loading{
+    0%{
+        
+        transform: translateY(0);
+    }
+    50%{
+        background-color: black;
+        transform: translateY(-20px);
+    }
+    100%{
+        background-color: orange;
+        transform: translateY(0);
+    }
+}

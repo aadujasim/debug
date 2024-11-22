@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8,.child9{
+    width: 200px;
+    height: 350px;
+    background-color: orange;
+    margin-left: 5px;
+    margin-top: 5px;
+   
+    min-width: 150px;
+}
+.jersey{
+    width: 80%;
+    height:100% ;
+    object-fit: cover;
+    object-position: center;
+}
+.child7{
+    flex: 1;
+    max-width: 200px;
+   
+}
